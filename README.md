@@ -1,13 +1,13 @@
 # VideoStreamWifiCar
-၁) Arduino + adafruit motor shield version 1 အတြက္ *ino ဖိုင္ကို arduino folder ထဲမွယူပီး upload လုပ္ပါ။
+၁) Arduino + adafruit motor shield version 1 အတွက် arduino ထဲက sketch ကို  upload လုပ်ပါ
 
-၂) Raspberry pi(with camera) တြင္ ros kinetic install လုပ္ပီးရင္ Arduino အတြက္ rosserial install လုပ္ပါ။ ပီးရင္ video_stream, ros_car_master package မ်ားကို workspace/src ထဲသြင္းပီး catkin_make လုပ္ပါ။
-    ပီးရင္ boot အတက္မွာ ros_car_master/launch/ထဲမွ auto_start_master.launch တက္လာေအာင္လုပ္ပါ။ (see ROS MYANMAR YOUTUBE URL-)
-၃) Android apk ကိုအသံုးျပဳပီး ကားေမာင္းပါ။ 
+၂) Raspberry pi(with camera) တွင် ros kinetic install လုပ်ပီးရင် Arduino အတွက် rosserial install လုပ်ပါ။ ပီးရင် video_stream, ros_car_master package များကို workspace/src ထဲထည့်ပီး catkin_make လုပ်ပါ။
+    ပီးရင် raspberry pi boot အတက်မှာ ros_car_master/launch/ထဲက auto_start_master.launch ကို auto start ဖြစ် အောင်လုပ်ပါ။ (see ROS MYANMAR YOUTUBE URL-)
+၃) Android apk ကိုအသုံးပြုပီးကားမောင်းပါ။ 
 
-၄) Ubuntu pc မွ ေမာင္းခ်င္ရင္ pc မွာ ros_car_client pkg ထဲ့ပီး auto_start_client ကို launch လုပ္ပီးေမာင္းပါ။
+၄) Ubuntu pc ကဆိုရင် pc မှာ ros_car_client pkg ထဲ့ပီး auto_start_client ကို launch လုပ်ပီးမောင်းပါ။
 
-၅) SSD neural network မ်ားအသံုးျပဳပီး image topic ကို စိတ္ကူးရွိသလိုစိတ္ၾကိဳက္အသံုးျပဳပါ။
+၅) SSD neural network များသုံးပြုပီး  image topic ကို စိတ်ကူးရှိသလို program လုပ်ပါ။
 
 
 1) Upload sketch to Arduion(with adafruit motor shield v1)
@@ -17,5 +17,5 @@
 
 
 <p align="center">
-  <img src="https://github.com/GreenGhostMan/VideoStreamWifiCar/blob/master/image.png" width="350"/>
+  <img src="https://github.com/GreenGhostMan/VideoStreamWifiCar/blob/master/image.png" width="500"/>
 </p>
