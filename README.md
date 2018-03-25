@@ -17,5 +17,5 @@
 
 
 <p align="center">
-  <img src="https://github.com/GreenGhostMan/VideoStreamWifiCar/blob/master/image.png" width="500"/>
+  <img src="https://github.com/GreenGhostMan/VideoStreamWifiCar/blob/master/image.jpg" width="500"/>
 </p>
