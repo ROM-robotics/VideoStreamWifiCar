@@ -1,4 +1,14 @@
 # VideoStreamWifiCar
+# HARDWARE
+ Arduino + motor shield v1
+ Raspberry Pi + camera module
+
+# SOFTWARE
+ Robot Operation System(kinetic)
+ Opencv
+ 
+အသုံးပြုနည်း
+********
 ၁) Arduino + adafruit motor shield version 1 အတွက် arduino ထဲက sketch ကို  upload လုပ်ပါ
 
 ၂) Raspberry pi(with camera) တွင် ros kinetic install လုပ်ပီးရင် Arduino အတွက် rosserial install လုပ်ပါ။ ပီးရင် video_stream, ros_car_master package များကို workspace/src ထဲထည့်ပီး catkin_make လုပ်ပါ။
@@ -9,7 +19,8 @@
 
 ၅) SSD neural network များသုံးပြုပီး  image topic ကို စိတ်ကူးရှိသလို program လုပ်ပါ။
 
-
+Usage
+*****
 1) Upload sketch to Arduion(with adafruit motor shield v1)
 2) compile video_stream,ros_car_master package ( Raspberrypi<with camera module> )
 3) Control video stream car from Ubuntu pc ( Using ros_car_client )
