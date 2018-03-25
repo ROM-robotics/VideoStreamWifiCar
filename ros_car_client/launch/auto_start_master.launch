@@ -1,0 +1,4 @@
+<launch>
+	<include file="$(find video_stream_opencv)/launch/camera.launch"/>
+  	<node pkg="rosserial_python" type="serial_node.py" name="serial_node" output="screen" args="/dev/ttyACM0"/>
+</launch>
